@@ -1,0 +1,61 @@
+=== PHOTOBOOTH STRIP CREATION ===
+App.tsx:1214 Creating friends photobooth strip with 3 photos
+App.tsx:1216 Using manually selected three1 frame
+App.tsx:1020 ✓ Using MANUALLY SELECTED THREE1 frame
+App.tsx:281 🔍 Scanning frame for GREEN placement markers...
+App.tsx:291 Found 1355512 green pixels in frame
+App.tsx:295 ✓ Using GREEN MARKER detection mode
+App.tsx:305 📐 Frame orientation: PORTRAIT (USER SELECTED)
+App.tsx:306 📐 Detecting 3 regions
+App.tsx:364 Region 1 (TOP): 452316 pixels, bounds: X=119→914, Y=421→989
+App.tsx:411   Region boundaries: Y=0→1000, maxHeight=490, finalHeight=490, finalWidth=954
+App.tsx:412   Cutout edges: TOP=460, BOTTOM=950 (should be within 0-1000)
+App.tsx:470   ✓ TOP region: center (517, 705), size 954x490, edges Y=460→950
+App.tsx:364 Region 2 (MIDDLE): 563718 pixels, bounds: X=125→924, Y=1124→1999
+App.tsx:411   Region boundaries: Y=1000→2000, maxHeight=777, finalHeight=777, finalWidth=955
+App.tsx:412   Cutout edges: TOP=1173, BOTTOM=1950 (should be within 1000-2000)
+App.tsx:470   ✓ MIDDLE region: center (525, 1562), size 955x777, edges Y=1173→1950
+App.tsx:364 Region 3 (BOTTOM): 339478 pixels, bounds: X=129→924, Y=2000→2428
+App.tsx:411   Region boundaries: Y=2000→3000, maxHeight=328, finalHeight=328, finalWidth=954
+App.tsx:412   Cutout edges: TOP=2050, BOTTOM=2378 (should be within 2000-3000)
+App.tsx:470   ✓ BOTTOM region: center (527, 2214), size 954x328, edges Y=2050→2378
+App.tsx:475 ✓ Detected 3 green placement regions
+App.tsx:1038 🖼️ Canvas size: 1061x3000
+App.tsx:1039 🖼️ Frame size: 1061x3000
+App.tsx:1042 Using auto-detected cutout positions for 3 photos
+App.tsx:1043 Cutout 0 (TOP): centerX=517, centerY=705
+App.tsx:1044 Cutout 1 (MIDDLE): centerX=525, centerY=1562
+App.tsx:1045 Cutout 2 (BOTTOM): centerX=527, centerY=2214
+App.tsx:1056 📸 Photo 1 → TOP region (center: 517, 705, size: 954x490)
+App.tsx:1056 📸 Photo 2 → MIDDLE region (center: 525, 1562, size: 955x777)
+App.tsx:1056 📸 Photo 3 → BOTTOM region (center: 527, 2214, size: 954x328)
+App.tsx:1120 🎨 Creating chroma-keyed frame (removing green pixels)...
+App.tsx:1144 ✓ Made 1355512 green pixels transparent
+App.tsx:1243 friends photobooth strip completed, opening editor
+App.tsx:1244 =================================
+App.tsx:193 Current location: /editor/d0b8d978-f82e-46f5-a501-88cfbd90e48b
+PhotoEditorPage.tsx:25 PhotoEditorPage loading... Object
+PhotoEditorPage.tsx:36 === PHOTOEDITORPAGE LOADING ===
+PhotoEditorPage.tsx:37 Session ID: d0b8d978-f82e-46f5-a501-88cfbd90e48b
+PhotoEditorPage.tsx:39 SessionStorage data found: true
+PhotoEditorPage.tsx:43 Data loaded from sessionStorage: 4.63MB
+PhotoEditorPage.tsx:44 Data URL prefix: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABCUA
+App.tsx:1228 Photobooth strip created: 1061x3000 (3.2MP)
+App.tsx:1232 ✅ Good quality photobooth strip: 3.2MP
+PhotoEditorPage.tsx:50 PhotoEditorPage received: 1061x3000 (3.2MP)
+PhotoEditorPage.tsx:57 ✅ Good quality in PhotoEditorPage: 3.2MP
+PhotoEditorPage.tsx:59 ===============================
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1061x3000
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1061x3000 (3.2MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.2MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 278.33566666666667x787 (no upscaling from 1061x3000)
+PhotoEditor.tsx:290 Display transform: Object
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1061x3000
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1061x3000 (3.2MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.2MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 278.33566666666667x787 (no upscaling from 1061x3000)
+PhotoEditor.tsx:290 Display transform: Object

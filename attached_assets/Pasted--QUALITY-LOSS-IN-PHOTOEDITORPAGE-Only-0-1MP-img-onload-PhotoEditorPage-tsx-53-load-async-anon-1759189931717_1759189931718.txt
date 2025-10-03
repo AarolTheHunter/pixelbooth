@@ -1,0 +1,121 @@
+ QUALITY LOSS IN PHOTOEDITORPAGE: Only 0.1MP!
+img.onload @ PhotoEditorPage.tsx:53
+load (async)
+(anonymous) @ PhotoEditorPage.tsx:48
+commitHookEffectListMount @ chunk-WERSD76P.js?v=f363fc61:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=f363fc61:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=f363fc61:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=f363fc61:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=f363fc61:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=f363fc61:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=f363fc61:19447
+commitRootImpl @ chunk-WERSD76P.js?v=f363fc61:19416
+commitRoot @ chunk-WERSD76P.js?v=f363fc61:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=f363fc61:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=f363fc61:9119
+(anonymous) @ chunk-WERSD76P.js?v=f363fc61:18627
+load (async)
+(anonymous) @ App.tsx:266
+loadImage @ App.tsx:264
+(anonymous) @ App.tsx:273
+createPhotoboothStrip @ App.tsx:252
+handlePhotoboothCapture @ App.tsx:325
+capturePhotoboothPhoto @ PrettyClickCamera.tsx:404
+(anonymous) @ PrettyClickCamera.tsx:287
+setTimeout (async)
+(anonymous) @ PrettyClickCamera.tsx:285
+basicStateReducer @ chunk-WERSD76P.js?v=f363fc61:11703
+dispatchSetState @ chunk-WERSD76P.js?v=f363fc61:12385
+(anonymous) @ PrettyClickCamera.tsx:282
+setInterval (async)
+startCountdown @ PrettyClickCamera.tsx:281
+(anonymous) @ PrettyClickCamera.tsx:414
+setTimeout (async)
+capturePhotoboothPhoto @ PrettyClickCamera.tsx:412
+(anonymous) @ PrettyClickCamera.tsx:287
+setTimeout (async)
+(anonymous) @ PrettyClickCamera.tsx:285
+basicStateReducer @ chunk-WERSD76P.js?v=f363fc61:11703
+dispatchSetState @ chunk-WERSD76P.js?v=f363fc61:12385
+(anonymous) @ PrettyClickCamera.tsx:282
+setInterval (async)
+startCountdown @ PrettyClickCamera.tsx:281
+startPhotoboothCapture @ PrettyClickCamera.tsx:427
+callCallback2 @ chunk-WERSD76P.js?v=f363fc61:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=f363fc61:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=f363fc61:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=f363fc61:3736
+executeDispatch @ chunk-WERSD76P.js?v=f363fc61:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=f363fc61:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=f363fc61:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=f363fc61:7051
+(anonymous) @ chunk-WERSD76P.js?v=f363fc61:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=f363fc61:18913
+batchedUpdates @ chunk-WERSD76P.js?v=f363fc61:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=f363fc61:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=f363fc61:5478
+dispatchEvent @ chunk-WERSD76P.js?v=f363fc61:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=f363fc61:5449
+Show 31 more frames
+Show less
+PhotoEditorPage.tsx:54 The quality loss happened BEFORE PhotoEditorPage loaded the image!
+img.onload @ PhotoEditorPage.tsx:54
+load (async)
+(anonymous) @ PhotoEditorPage.tsx:48
+commitHookEffectListMount @ chunk-WERSD76P.js?v=f363fc61:16915
+commitPassiveMountOnFiber @ chunk-WERSD76P.js?v=f363fc61:18156
+commitPassiveMountEffects_complete @ chunk-WERSD76P.js?v=f363fc61:18129
+commitPassiveMountEffects_begin @ chunk-WERSD76P.js?v=f363fc61:18119
+commitPassiveMountEffects @ chunk-WERSD76P.js?v=f363fc61:18109
+flushPassiveEffectsImpl @ chunk-WERSD76P.js?v=f363fc61:19490
+flushPassiveEffects @ chunk-WERSD76P.js?v=f363fc61:19447
+commitRootImpl @ chunk-WERSD76P.js?v=f363fc61:19416
+commitRoot @ chunk-WERSD76P.js?v=f363fc61:19277
+performSyncWorkOnRoot @ chunk-WERSD76P.js?v=f363fc61:18895
+flushSyncCallbacks @ chunk-WERSD76P.js?v=f363fc61:9119
+(anonymous) @ chunk-WERSD76P.js?v=f363fc61:18627
+load (async)
+(anonymous) @ App.tsx:266
+loadImage @ App.tsx:264
+(anonymous) @ App.tsx:273
+createPhotoboothStrip @ App.tsx:252
+handlePhotoboothCapture @ App.tsx:325
+capturePhotoboothPhoto @ PrettyClickCamera.tsx:404
+(anonymous) @ PrettyClickCamera.tsx:287
+setTimeout (async)
+(anonymous) @ PrettyClickCamera.tsx:285
+basicStateReducer @ chunk-WERSD76P.js?v=f363fc61:11703
+dispatchSetState @ chunk-WERSD76P.js?v=f363fc61:12385
+(anonymous) @ PrettyClickCamera.tsx:282
+setInterval (async)
+startCountdown @ PrettyClickCamera.tsx:281
+(anonymous) @ PrettyClickCamera.tsx:414
+setTimeout (async)
+capturePhotoboothPhoto @ PrettyClickCamera.tsx:412
+(anonymous) @ PrettyClickCamera.tsx:287
+setTimeout (async)
+(anonymous) @ PrettyClickCamera.tsx:285
+basicStateReducer @ chunk-WERSD76P.js?v=f363fc61:11703
+dispatchSetState @ chunk-WERSD76P.js?v=f363fc61:12385
+(anonymous) @ PrettyClickCamera.tsx:282
+setInterval (async)
+startCountdown @ PrettyClickCamera.tsx:281
+startPhotoboothCapture @ PrettyClickCamera.tsx:427
+callCallback2 @ chunk-WERSD76P.js?v=f363fc61:3674
+invokeGuardedCallbackDev @ chunk-WERSD76P.js?v=f363fc61:3699
+invokeGuardedCallback @ chunk-WERSD76P.js?v=f363fc61:3733
+invokeGuardedCallbackAndCatchFirstError @ chunk-WERSD76P.js?v=f363fc61:3736
+executeDispatch @ chunk-WERSD76P.js?v=f363fc61:7014
+processDispatchQueueItemsInOrder @ chunk-WERSD76P.js?v=f363fc61:7034
+processDispatchQueue @ chunk-WERSD76P.js?v=f363fc61:7043
+dispatchEventsForPlugins @ chunk-WERSD76P.js?v=f363fc61:7051
+(anonymous) @ chunk-WERSD76P.js?v=f363fc61:7174
+batchedUpdates$1 @ chunk-WERSD76P.js?v=f363fc61:18913
+batchedUpdates @ chunk-WERSD76P.js?v=f363fc61:3579
+dispatchEventForPluginEventSystem @ chunk-WERSD76P.js?v=f363fc61:7173
+dispatchEventWithEnableCapturePhaseSelectiveHydrationWithoutDiscreteEventReplay @ chunk-WERSD76P.js?v=f363fc61:5478
+dispatchEvent @ chunk-WERSD76P.js?v=f363fc61:5472
+dispatchDiscreteEvent @ chunk-WERSD76P.js?v=f363fc61:5449
+Show 31 more frames
+Show less
+PhotoEditorPage.tsx:55 Check App.tsx handleCapture logs to see what was stored in sessionStorage.

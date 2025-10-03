@@ -1,0 +1,70 @@
+Current location: /camera
+App.tsx:846 === PHOTOBOOTH STRIP CREATION ===
+App.tsx:847 Creating couples photobooth strip with 2 photos
+App.tsx:849 Using manually selected landscape frame
+App.tsx:552 ✓ Using MANUALLY SELECTED LANDSCAPE frame
+App.tsx:274 🔍 Scanning frame for GREEN placement markers...
+App.tsx:284 Found 345159 green pixels in frame
+App.tsx:288 ✓ Using GREEN MARKER detection mode
+App.tsx:293 📐 Frame orientation: PORTRAIT
+App.tsx:294 📐 Split point: Y=1122.5
+App.tsx:347 Green regions found: TOP: 279404 pixels, BOTTOM: 65755 pixels
+App.tsx:348 Region 1 (TOP) bounds: X=211→1409, Y=749→1122
+App.tsx:349 Region 2 (BOTTOM) bounds: X=286→1382, Y=1123→1256
+App.tsx:358   ✓ TOP region: center (810, 936), size 1198x373
+App.tsx:368   ✓ BOTTOM region: center (834, 1190), size 1096x133
+App.tsx:372 ✓ Detected 2 green placement regions
+App.tsx:585 🖼️ Canvas size: 1587x2245
+App.tsx:586 🖼️ Frame size: 1587x2245
+App.tsx:592 Using auto-detected cutout positions
+App.tsx:593 Frame is PORTRAIT
+App.tsx:594 Cutout 0: centerX=810, centerY=936
+App.tsx:595 Cutout 1: centerX=834, centerY=1190
+App.tsx:627 📸 Photo 1 → TOP region (center: 810, 936, size: 1198x373)
+App.tsx:648    Drawing photo: scale=0.345, size=663x373, pos=(478, 749)
+App.tsx:627 📸 Photo 2 → BOTTOM region (center: 834, 1190, size: 1096x133)
+App.tsx:648    Drawing photo: scale=0.062, size=236x133, pos=(716, 1123)
+App.tsx:743 🎨 Creating chroma-keyed frame (removing green pixels)...
+App.tsx:773 ✓ Made 345159 green pixels transparent
+App.tsx:876 couples photobooth strip completed, opening editor
+App.tsx:877 =================================
+App.tsx:186 Current location: /editor/433037ce-91a0-4881-bed3-3b94d1c980e3
+PhotoEditorPage.tsx:25 PhotoEditorPage loading... Object
+PhotoEditorPage.tsx:36 === PHOTOEDITORPAGE LOADING ===
+PhotoEditorPage.tsx:37 Session ID: 433037ce-91a0-4881-bed3-3b94d1c980e3
+PhotoEditorPage.tsx:39 SessionStorage data found: true
+PhotoEditorPage.tsx:43 Data loaded from sessionStorage: 1.90MB
+PhotoEditorPage.tsx:44 Data URL prefix: data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAABjMA
+App.tsx:861 Photobooth strip created: 1587x2245 (3.6MP)
+App.tsx:865 ✅ Good quality photobooth strip: 3.6MP
+PhotoEditorPage.tsx:50 PhotoEditorPage received: 1587x2245 (3.6MP)
+PhotoEditorPage.tsx:57 ✅ Good quality in PhotoEditorPage: 3.6MP
+PhotoEditorPage.tsx:59 ===============================
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1587x2245
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1587x2245 (3.6MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.6MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 556.3336302895323x787 (no upscaling from 1587x2245)
+PhotoEditor.tsx:290 Display transform: Object
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1587x2245
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1587x2245 (3.6MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.6MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 556.3336302895323x787 (no upscaling from 1587x2245)
+PhotoEditor.tsx:290 Display transform: Object
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1587x2245
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1587x2245 (3.6MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.6MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 556.3336302895323x787 (no upscaling from 1587x2245)
+PhotoEditor.tsx:290 Display transform: Object
+PhotoEditor.tsx:226 === PHOTOEDITOR COMPONENT ===
+PhotoEditor.tsx:227 Image naturalWidth x naturalHeight: 1587x2245
+PhotoEditor.tsx:231 PhotoEditor will use base resolution: 1587x2245 (3.6MP)
+PhotoEditor.tsx:238 ✅ PhotoEditor component has good quality: 3.6MP
+PhotoEditor.tsx:240 ============================
+PhotoEditor.tsx:265 Display size capped to: 556.3336302895323x787 (no upscaling from 1587x2245)
+PhotoEditor.tsx:290 Display transform: Object
